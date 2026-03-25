@@ -1,0 +1,31 @@
+{
+  "name": "ollama-flashcards",
+  "version": "1.0.0",
+  "description": "A flashcard app for language learning using Ollama models",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "flashcards",
+    "language-learning",
+    "ollama",
+    "AI"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "axios": "^1.4.0",
+    "csv-parse": "^6.2.1",
+    "next": "^14.2.5",
+    "prisma": "^6.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sqlite3": "^6.0.1",
+    "styled-components": "^6.0.7"
+  }
+}
